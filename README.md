@@ -101,4 +101,17 @@ Thank you for using OTPTextField! We hope it enhances your Jetpack Compose devel
 ### License
 This library is distributed under the MIT license. See the LICENSE file for more details.
 
-## [Prabhat Pandey](https://prabhatpandey.com)
+## Author
+[<img src="https://raw.githubusercontent.com/prabhatsdp/prabhatsdp/3f4612b597a603573c215ab3b54e38ad944b7e19/assets/banner.svg" alt="👋 Prabhat Pandey | Android App Developerl)" title="Prabhat Pandey" width="100%"/>](https://prabhatpandey.com/)
+### 📫 How to reach me: 
+
+<a href="https://www.linkedin.com/in/prabhatsdp/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=rounded&logo=linkedin&logoColor=white" alt="LinkedIn" height="32px"></a>
+<a href="https://github.com/prabhatsdp/" target="_blank"><img src="https://img.shields.io/badge/Github-%23121011.svg?&style=rounded&logo=github&logoColor=white" alt="Github" height="32px"></a>
+<a href="https://twitter.com/prabhatsdp/" target="_blank"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=rounded&logo=twitter&logoColor=white" alt="Twitter" height="32px"></a>
+<a href="https://wa.me/917651894906" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-%23075E54,.svg?&style=rounded&logo=whatsapp&logoColor=white" alt="WhatsApp" height="32px"></a>
+<a href="mailto:prabhatsdp@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-%23BB001B.svg?&style=rounded&logo=gmail&logoColor=white" alt="WhatsApp" height="32px"></a>
+
+## Buy Me A Coffee
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/prabhatsdp)
+
