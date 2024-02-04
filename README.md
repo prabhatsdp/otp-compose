@@ -46,20 +46,17 @@ Replace  `VERSION` with the desired release tag.
 1. Add the `OTPTextField` composable to your MainActivity.
 
    ```kotlin
-   import androidx.activity.ComponentActivity
-   import androidx.activity.compose.setContent
-   import androidx.compose.foundation.layout.fillMaxSize
-   import androidx.compose.material3.MaterialTheme
-   import androidx.compose.material3.Surface
-   import androidx.compose.ui.Modifier
-   import androidx.compose.ui.graphics.Color
-   import androidx.compose.ui.tooling.preview.Preview
-   import com.example.myapp.ui.theme.MyAppTheme
+   // Import Statements
 
    class MainActivity : ComponentActivity() {
        override fun onCreate(savedInstanceState: Bundle?) {
            super.onCreate(savedInstanceState)
            setContent {
+               
+               var otp by remember {
+                   mutableStateOf("")
+               }
+   
                MyAppTheme {
                    // Use OTPTextField in your UI
                    Surface(
@@ -67,8 +64,8 @@ Replace  `VERSION` with the desired release tag.
                        color = Color.White
                    ) {
                        OTPTextField(
-                           value = "1234", // Initial value
-                           onTextChanged = { /* Handle the updated OTP value */ },
+                           value = otp, // Initial value
+                           onTextChanged = { otp = it },
                            numDigits = 4, // Number of digits in OTP
                            isMasked = true, // Mask digits for security
                            digitContainerStyle = OtpTextFieldDefaults.outlinedContainer(), // Choose style (outlined or underlined)
