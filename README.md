@@ -26,7 +26,7 @@ To use `OTPTextField` in your Android project, follow these steps:
 
    ```groovy
    dependencies {
-       implementation 'com.prabhatpandey:otp-compose:VERSION'
+       implementation 'com.prabhatpandey:otp-compose:1.0.1'
    }
    ```
 
@@ -34,11 +34,10 @@ To use `OTPTextField` in your Android project, follow these steps:
 
    ```kotlin
    dependencies {
-       implementation("com.prabhatpandey:otp-compose:VERSION")
+       implementation("com.prabhatpandey:otp-compose:1.0.1")
    }
    ```
 
-Replace  `VERSION` with the desired release tag.
 
 
 ### Usage
