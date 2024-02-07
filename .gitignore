@@ -150,8 +150,7 @@ google-services.json
 *.ctxt
 
 
-# Package Files #
-*.jar
+# Package Files
 *.nar
 *.zip
 *.tar.gz
